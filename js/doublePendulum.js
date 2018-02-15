@@ -1,6 +1,6 @@
 var canvas = document.querySelector('canvas');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.innerWidth-10;
+canvas.height = window.innerHeight-10;
 
 var c = canvas.getContext('2d');
 var g = 1;
@@ -10,16 +10,16 @@ var a1 = Math.random() * Math.PI - 0.5 * Math.PI,
 	vel2 = 0,
 	acc1 = 0,
 	acc2 = 0,
-	l1 = 200,
-	l2 = 200,
+	l1 = 300,
+	l2 = 300,
 	x0 = window.innerWidth / 2,
 	y0 = window.innerHeight / 5,
 	x1 = x0 + l1 * Math.sin(a1),
 	x2 = x0 + x1 + l2 * Math.sin(a2),
 	y1 = y0 + l1 * Math.cos(a1),
 	y2 = y0 + y1 + l2 * Math.cos(a2),
-	r1 = 20,
-	r2 = 20;
+	r1 = 30,
+	r2 = 30;
 
 // canvas
 c.fillStyle = '#0e0e0e';
