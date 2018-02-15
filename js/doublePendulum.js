@@ -15,9 +15,9 @@ var angle1 = Math.random() * Math.PI - 0.5 * Math.PI,
 	x0 = window.innerWidth / 2,
 	y0 = window.innerHeight / 5,
 	x1 = x0 + length1 * Math.sin(angle1),
-	x2 = x0 + x1 + length2 * Math.sin(angle2),
+	x2 = x1 + length2 * Math.sin(angle2),
 	y1 = y0 + length1 * Math.cos(angle1),
-	y2 = y0 + y1 + length2 * Math.cos(angle2),
+	y2 = y1 + length2 * Math.cos(angle2),
 	radius1 = 30,
 	radius2 = 30;
 
