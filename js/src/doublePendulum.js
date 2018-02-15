@@ -1,4 +1,4 @@
-var canvas = document.getElementById('doublePendulum');
+var canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -13,7 +13,7 @@ var a1 = Math.random() * Math.PI - 0.5 * Math.PI,
 	l1 = 200,
 	l2 = 200,
 	x0 = window.innerWidth / 2,
-	y0 = window.innerHeight / 4,
+	y0 = window.innerHeight / 5,
 	x1 = x0 + l1 * Math.sin(a1),
 	x2 = x0 + x1 + l2 * Math.sin(a2),
 	y1 = y0 + l1 * Math.cos(a1),
