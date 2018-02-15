@@ -4,8 +4,8 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 var g = 1;
-var a1 = 1,
-	a2 = -2,
+var a1 = Math.random() * Math.PI - 0.5 * Math.PI,
+	a2 = Math.random() * Math.PI * 2,
 	vel1 = 0,
 	vel2 = 0,
 	acc1 = 0,
